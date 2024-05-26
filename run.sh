@@ -23,7 +23,12 @@ install_suse() {
     sudo zypper install -y "$1"
 }
 
-# Detect the package manager and install the package
+# Function to install packages on macOS
+install_macos() {
+    brew install "$1"
+}
+
+# Function to install packages based on the detected package manager
 install_package() {
     if command_exists apt-get; then
         install_debian "$1"
@@ -31,6 +36,8 @@ install_package() {
         install_redhat "$1"
     elif command_exists zypper; then
         install_suse "$1"
+    elif command_exists brew; then
+        install_macos "$1"
     else
         echo "Unsupported package manager. Please install $1 manually."
         exit 1
