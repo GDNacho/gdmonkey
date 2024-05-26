@@ -30,7 +30,7 @@ Windows makes it extra annoying to do this, so in this tutorial here's how to do
 5. Run GDMonkey
   - Open file explorer and open the DIY folder
   - Right click on the window, then click on "Git Bash here", this will open Git Bash
-  - Type "./gdmonkey.sh" and press enter to run GDMonkey
+  - Type ```./gdmonkey.sh``` and press enter to run GDMonkey
   - Closing the window or pressing CTRL+C will terminate the program
   - Furthermore copy something from the window you can't use CTRL+C, select text, right click, then click Copy
   - You can open another terminal to run another monkey, but be mindful, you only have so much CPU
@@ -59,7 +59,7 @@ I recommend you try the other version first and only try this if it doesn't work
 3. Run GDMonkey
   - Open file explorer and right click DIY folder
   - Click on "New Terminal at Folder"
-  - Type "./gdmonkey.sh" and press enter to run GDMonkey
+  - Type ```./gdmonkey.sh``` and press enter to run GDMonkey
   - On first run it might ask you if you want to install packets, just type "y" press enter and move on
   - Closing the window will terminate the program
   - I have no clue how terminal works on Mac, you're better off screenshotting the damn thing
@@ -70,10 +70,10 @@ You're a Linux user, you know what to do, right?
 The .sh auto package installer supports distros based on Debian, Red Hat, SUSE, Pacman (Arch), Gentoo, Slackware, Solus and Tiny Core, which covers 95% of distros under the sun.
 1. Download GDMonkey
   - Open a terminal
-  - Clone the repo with "git clone ```https://github.com/gdnacho/gdmonkey.git```
+  - Clone the repo with ```git clone https://github.com/gdnacho/gdmonkey.git```
 2. Run GDMonkey
   - cd into gdmonkey/DIY ```cd cdmonkey/DIY```
-  - Type "./gdmonkey.sh" and press enter to run GDMonkey
+  - Type ```./gdmonkey.sh``` and press enter to run GDMonkey
   - Closing the window or pressing CTRL+C will terminate the program
   - Furthermore copy something from the window you can't use CTRL+C, select text, right click, then click Copy
   - You can open another terminal to run another monkey, but be mindful, you only have so much CPU
