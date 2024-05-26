@@ -11,7 +11,6 @@ Currently the program is coded in such a way that it will only really work with 
 ## Setup
 
 The C code comes with the first part of Stereo Madness' information hardcoded and ready to go
+If you wish to get your own Stereo Madness-playing-monkey, there's a few options depending on your Operating system
 
-If you wish to get your own Stereo Madness-playing-monkey, you must consider a few options:
-- __Downloading the source code and compiling it yourself:__ Will be most optimized for your specific CPU's arquitechture and will run slightly faster, it's not very hard and you can make changes to the code if you wish.
-- __Downloading the binary for your specific OS:__ You can go to the "bin" folder and get the .bin file named after your system and run it, but I recommend the first option.
+### Windows
