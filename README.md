@@ -69,17 +69,14 @@ I recommend you try the other version first and only try this if it doesn't work
 You're a Linux user, you know what to do, right?
 The .sh auto package installer supports distros based on Debian, Red Hat, SUSE, Pacman (Arch), Gentoo, Slackware, Solus and Tiny Core, which covers 95% of distros under the sun.
 1. Download GDMonkey
-  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.1), then click on "Source code (zip)" to download
-  - Unzip the zip file wherever you like
+  - Open a terminal
+  - Clone the repo with "git clone ```https://github.com/gdnacho/gdmonkey.git```
 2. Run GDMonkey
-  - Open a terminal in the DIY folder
+  - cd into gdmonkey/DIY ```cd cdmonkey/DIY```
   - Type "./gdmonkey.sh" and press enter to run GDMonkey
   - Closing the window or pressing CTRL+C will terminate the program
   - Furthermore copy something from the window you can't use CTRL+C, select text, right click, then click Copy
   - You can open another terminal to run another monkey, but be mindful, you only have so much CPU
 
-### ChromeOS
-You're on your own, I've read you need Crustini, whatever that is
-
-### FreeBSD
-?????????????????
+### Other OSs (Like ChromeOS)
+You're on your own! Though at this point I wonder how you even run Geometry Dash in the first place...
