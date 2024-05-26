@@ -8,6 +8,13 @@ GDMonkey is a program that simulates many attempts of the first 33% of the first
 
 Currently the program is coded in such a way that it will only really work with specific cube parts, and the first part of Stereo Madness fits that category.
 
+## How it Works
+
+Using Megahack V8 w/ frame stepper, i translated the first 33% of Stereo Madness into a 1508-long int array, each value representing a frame in the level.
+The number in each index indicates for how many frames the cube would remain airborne in case you happen to click on that frame.
+If the number is -1 it means that clicking will result in death, while -2 means that you'll die if you're not airborne by that frame.
+The program loops this array, restarting every time a death condition is met. It prints in which frames it clicked if it gets a new record.
+
 ## Setup & Instructions
 
 If you wish to get your own Stereo Madness-playing-monkey, the source C code comes with the first part of Stereo Madness' information hardcoded and ready to go
