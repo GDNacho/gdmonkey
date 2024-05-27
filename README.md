@@ -22,7 +22,7 @@ the .sh file automatically compiles the C code, but not before installing any de
 
 ### On the Browser
 This option will give you a monkey that's pretty bad at gaming (and by that I mean a monkey about 5 times or more slower than if you were to use another option), also I think it's buggy and the way browsers do stuff it might suspend the monkey from it's gaming session if you tab out or you focus on another window or something to try and save resources, so I **EXTREMELY** recommend you try another option
-But if you're not willing, go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.2), click on gdmonkey.html to download it, then double click it to open it on your browser.
+But if you're not willing, go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.1), click on gdmonkey.html to download it, then double click it to open it on your browser.
 Later on, you'll be able to enter a website to simply have a monkey running at all times
 
 ### Windows 
@@ -37,7 +37,7 @@ Windows makes it extra annoying to do this, so in this tutorial here's how to do
   - Open the .exe and press run
   - In the setup window you can just spam "Next" until installation is complete, how nifty
 4. Download GDMonkey
-  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.2), then click on "Source code (zip)" to download
+  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.1), then click on "Source code (zip)" to download
   - Unzip the zip file wherever you like
 5. Run GDMonkey
   - Open file explorer and open the DIY folder
@@ -66,7 +66,7 @@ I recommend you try the other version first and only try this if it doesn't work
   - Go to Keyboard > Shortcuts > Services
   - Find and turn on "New Terminal at Folder"
 2. Download GDMonkey
-  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.2), then click on "Source code (zip)" to download
+  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.1), then click on "Source code (zip)" to download
   - Unzip the zip file wherever you like
 3. Run GDMonkey
   - Open file explorer and right click DIY folder
