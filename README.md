@@ -20,8 +20,13 @@ The program loops this array, restarting every time a death condition is met. It
 If you wish to get your own Stereo Madness-playing-monkey, the source C code comes with the first part of Stereo Madness' information hardcoded and ready to go
 the .sh file automatically compiles the C code, but not before installing any dependencies in case they're missing (GCC and cURL), and in Mac, it even installs the homebrew packet manager TO install the dependecies, how cool is that?
 
+### On the Browser
+This option will give you a monkey that's pretty bad at gaming (and by that I mean a monkey about 5 times or more slower than if you were to use another option), also I think it's buggy and the way browsers do stuff it might suspend the monkey from it's gaming session if you tab out or you focus on another window or something to try and save resources, so I **EXTREMELY** recommend you try another option
+But if you're not willing, go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.2), click on gdmonkey.html to download it, then double click it to open it on your browser.
+Later on, you'll be able to enter a website to simply have a monkey running at all times
+
 ### Windows 
-Windows makes it extra annoying to do this, so in this tutorial here's how to download a Linux simulator to do it there instead! You need like 100MB of free disk space, if you don't have that or this isn't working out, skip to Windows (Alternative) on this doc
+Windows makes it extra annoying to do this, so in this tutorial here's how to download a Linux simulator to do it there instead! You need like 100MB of free disk space, if you don't have that or this doesn't work out or you simply cannot be assed, skip to Windows (Alternative) on this doc
 1. Determine if your system is 32 of 64 bits, if you already know this then skip this step, if you're too lazy to find out, it's probably 64 bits.
   - Press Win + R (or search "execute" in the search bar)
   - Type "msinfo32" and press OK
@@ -32,7 +37,7 @@ Windows makes it extra annoying to do this, so in this tutorial here's how to do
   - Open the .exe and press run
   - In the setup window you can just spam "Next" until installation is complete, how nifty
 4. Download GDMonkey
-  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.1), then click on "Source code (zip)" to download
+  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.2), then click on "Source code (zip)" to download
   - Unzip the zip file wherever you like
 5. Run GDMonkey
   - Open file explorer and open the DIY folder
@@ -49,7 +54,7 @@ I recommend you try the other version first and only try this if it doesn't work
   - Type "msinfo32" and press OK
   - Check the "System Type" item's value in the list, it should say if it's 32 or 64 bits.
 2. Download GDMonkey
-  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.1), then click on "Source code (zip)" to download
+  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.2), then click on "Source code (zip)" to download
   - Unzip the zip file wherever you like
 3. Run GDMonkey
   - Open file explorer and open the Windows folder
@@ -61,7 +66,7 @@ I recommend you try the other version first and only try this if it doesn't work
   - Go to Keyboard > Shortcuts > Services
   - Find and turn on "New Terminal at Folder"
 2. Download GDMonkey
-  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.1), then click on "Source code (zip)" to download
+  - Go to [this link](https://github.com/GDNacho/gdmonkey/releases/tag/1.0.2), then click on "Source code (zip)" to download
   - Unzip the zip file wherever you like
 3. Run GDMonkey
   - Open file explorer and right click DIY folder
