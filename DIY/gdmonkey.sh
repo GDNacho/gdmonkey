@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd source
+
 # Function to check if a command exists
 command_exists() {
     command -v "$1" >/dev/null 2>&1
@@ -33,7 +35,35 @@ install_tinycore() {
 
 # Function to install packages on macOS
 install_macos() {
+    # Check if Homebrew is installed
+    if ! command -v brew &> /dev/null; then
+        # If not installed, install Homebrew
+        echo "Homebrew is not installed. Installing..."
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    fi
+
+    # Install the specified package
     brew install "$1"
+}
+
+# Function to install packages on Gentoo-based systems
+install_gentoo() {
+    sudo emerge --ask "$1"
+}
+
+# Function to install packages on Slackware-based systems
+install_slackware() {
+    sudo slackpkg install "$1"
+}
+
+# Function to install packages on Solus-based systems
+install_solus() {
+    sudo eopkg install -y "$1"
+}
+
+# Function to install packages on FreeBSD-based systems
+install_freebsd() {
+    sudo pkg install -y "$1"
 }
 
 # Function to install packages based on the detected package manager
@@ -50,6 +80,14 @@ install_package() {
         install_tinycore "$1"
     elif command_exists brew; then
         install_macos "$1"
+    elif command_exists emerge; then
+        install_gentoo "$1"
+    elif command_exists slackpkg; then
+        install_slackware "$1"
+    elif command_exists eopkg; then
+        install_solus "$1"
+    elif command_exists pkg; then
+        install_freebsd "$1"
     else
         echo "Unsupported package manager. Please install $1 manually."
         exit 1
